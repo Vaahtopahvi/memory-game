@@ -62,7 +62,7 @@ First things first, make sure you have Node.js installed and npm included
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/your-username/pokemon-memory-game.git
+   git clone https://github.com/Vaahtopahvi/pokemon-memory-game.git
 
 2. Navigate to the project dir
    ```sh
