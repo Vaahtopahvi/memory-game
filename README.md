@@ -66,7 +66,7 @@ First things first, make sure you have Node.js installed and npm included
 
 2. Navigate to the project dir
    ```sh
-   cd pokemon-memory-game
+   cd memory-game
 
 3. Install the dependencies
    ```sh
