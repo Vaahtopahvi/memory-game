@@ -16,10 +16,14 @@ Oh, and here is one picture of how the game looks like.
 Here's a breakdown of how the game functions from start to end. I also try to explain with my own words what I used and learned:
 
 1. **Fetching Pokémon Data**:
+
    - When the game starts, it fetches data for a predefined list of Pokemons from [PokéApi](https://pokeapi.co/)
    - The data includes each Pokémon's ID, name, and image URL / sprite
+
 2. **Loading state**
-   - While the data is being fetched, a loading message is displayed. Once it's fetched, the loading message is replaced with game grid. PHEW!
+
+   - While the data is being fetched, a loading message is displayed. Once it's fetched, the loading message is replaced with game grid.
+
 3. **Use state**
 
    - I used React's `useState` hook to manage various states in this project. I learned that you can use `useState` to re-render page content without updating the whole page itself. You can also set an initial value to `useState` like `true` for loops
@@ -40,7 +44,8 @@ Here's a breakdown of how the game functions from start to end. I also try to ex
    - Cards are shuffled after every click to make memory game more difficult. It is done by creating a new shuffled array of Pokemon data
 
 7. **Help Popup**
-   - You can find a help button in the bottom right corner of the page. After clicked, it shows a message to tell you how to play the game. It toggles `help` state that is a boolean
+
+   - You can find a help button in the bottom right corner of the page. After clicked, it shows a message to tell you how to play the game. It toggles `help` state that is a boolean. PHEW!
 
 ## Thoughts and comments
 
@@ -64,14 +69,14 @@ First things first, make sure you have Node.js installed and npm included
 1. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/your-username/pokemon-memory-game.git
+   git clone https://github.com/Vaahtopahvi/memory-game.git
 
    ```
 
 2. Navigate to the project dir
 
    ```sh
-   cd pokemon-memory-game
+   cd memory-game
 
    ```
 
@@ -83,6 +88,7 @@ First things first, make sure you have Node.js installed and npm included
    ```
 
 4. Run the project
+
    ```sh
    npm run dev
 
